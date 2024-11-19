@@ -1,0 +1,39 @@
+:root{
+    --goida: #8d99ae;
+}
+body{
+    color: #edf2f4;
+    background-color: #2b2d42;
+    font-family: "Varela Round", sans-serif;
+}
+
+ul{
+    gap: 50px;
+    display: flex;
+    line-height: 100%;
+}
+.panel{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    vertical-align: middle;
+}
+.panel{
+    padding-right: 50px;
+    
+}
+.logo{
+    font-family: "Jacquard 12", system-ui;
+    justify-self: left;
+    font-size: 30px;
+    
+}
+a{
+    color: black;
+    all: unset;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+}   

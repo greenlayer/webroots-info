@@ -5,10 +5,11 @@ body{
     padding: 0;
     margin: 0;
     color: #edf2f4;
-    background-color: #2b2d42;
+    background-color: #003049;
     font-family: "Varela Round", sans-serif;
     font-size: 23px;
 }
+/*  #2b2d42 */
 h1{
     font-size: 55px;
 }
@@ -23,9 +24,9 @@ a{
     font-size: 25px;
     -webkit-transition: .3s ease;
 }   
-a>logo:hover{
+.logo:hover{
     color: #8d99ae;
-    font-size: 40px;
+    font-size: 60px;
     transition: .3s;  
 }
 a:hover{
@@ -39,6 +40,8 @@ ul{
     gap: 50px;
     display: flex;
     line-height: 100%;
+    padding-inline-start: 0px;
+    
 }
 
 li{
@@ -49,7 +52,7 @@ li{
 
 }
 .panel{
-
+    padding-left: 30px;
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -69,18 +72,19 @@ li{
     display: flex;
     justify-content: center;
     text-align: center;
-    border-bottom: 2px solid #edf2f4;
+    padding-bottom: 50px;
 }
 
 .info-about-text{
-    padding-bottom: 700px;
     text-align: center;
     margin-top: 50px;
+
 }
 
 .ico{
     height: 75px;
     -webkit-transition: .3s ease;
+    -webkit-filter: invert(100%);
 }
 .ico:hover{
     height: 120px;
@@ -97,11 +101,21 @@ li{
 .list-it{
     list-style: none;
     padding-top: 25px;
+    width: 160px;
 }
 .photos{
     display: flex;
-    gap: 90px;
+    gap: 60px;
 }
-.photos-items{
-    height: 400px;
+.img-proj{
+    height: 330px;
+    width: 490px;
+    
+}
+
+.about-cont{
+    display: flex;
+    text-align: left;
+    gap: 150px;
+    padding-bottom: 50px;
 }
